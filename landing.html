@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <img src="C:\html\landing.html">
+    <head>
+    <style type="text/css">
+        *{padding:0; margin:0; box-sizing: border-box;}
+        header{
+            width:100%;
+            height:100vh;
+            background:url("https://e0.pxfuel.com/wallpapers/210/638/desktop-wallpaper-cool-vegetable-pics-creative-common-fruits-and-vegetables-for-facebook-vegetables.jpg");
+            background-size: cover;
+            font-family:'Times New Roman';
+        }
+        nav{
+            width:100%;
+            height:100px;
+            color:white;
+            background-size: cover;
+            display:flex;
+            justify-content: space-around;
+            align-items:center;
+        }
+        .logo{
+            font-size:2em;
+            letter-spacing:1.5px;
+            word-spacing: 2px;
+            font-weight: bold;
+            text-decoration: underline;
+            transform: scaleX(1.5,1);
+            color:white;
+        }
+        .menu a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 20px;
+            position: relative;
+        }
+        .menu a:before{
+            content:'';
+            position: absolute;
+            top:0;
+            left:0;
+            width: 0%;
+            height:100%;
+            border-bottom: 3px solid #12a33e;
+            transition: 0.4s linear;
+        }
+        .menu a:hover:before{
+            width:90%;
+        }
+        .register a{
+            text-decoration: none;
+            color:white;
+            padding: 10px 20px;
+            font-size: 20px;
+            background: #12a33e;
+            border-radius: 10px;
+            transition: 0.4s;
+        }
+        .register a:hover{
+            background: transparent;
+            border:1px solid #12a33e;
+        }
+        .h-txt{
+            max-width: 650px;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            color:white;
+        }
+        .h-txt span{
+            letter-spacing: 1px;
+            font-size:2em;
+        }
+        .h-txt h1{
+            font-size: 3.5em;
+        }
+        .h-txt a{
+            text-decoration: none;
+            background: #12a33e;
+            color:white;
+            padding:10px 20px;
+            letter-spacing: 1px;
+            border-radius: 10px;
+        }
+        .h-txt p{
+            letter-spacing: 2.5px;
+            padding:20px 20px;
+            font-size:1em;
+            position: static;
+            text-align:center;
+        }
+    </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                    <div class="logo">
+                        Health is Wealth
+                    </div>
+                    <div class="menu">
+                        <a href="#home">Home</a>
+                        <a href="#Our packages">Packages</a>
+                        <a href="#Offers">Best Offer's</a>
+                        <a href="#About">About</a>
+                        <a href="#Contact">Contact</a>
+                    </div>
+                    <div class="register">
+                        <a href="#register">Register</a>
+                    </div>
+            </nav>
+            <section class="h-txt">
+                <span>Pulse</span>
+                <h1>Life Studios</h1>
+                <br>
+                <a href="#Book your Packages">Book your Packages</br></a>
+                <p>The Pulse Life Studio believes that wellness is the precursor to optimum health.
+                    It is a continuous process towards achieving positive, transformational well-being and thus, a complete life.
+                    When combined with its inherent strength in health care through Pulse Life Studio,the Life Studio aims to bring forth a unique perspective in holistic health.</p>
+            </section>
+        </header> 
+    </body>
+</html>
+<input type="checkbox" class="check-box"><span1>I agree to the terms & conditions</span1>an
+<button type="submit" class="submit-btn">Register</button>
